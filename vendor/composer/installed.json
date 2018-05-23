@@ -1,5 +1,68 @@
 [
     {
+        "name": "2amigos/yii2-date-picker-widget",
+        "version": "1.0.7",
+        "version_normalized": "1.0.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/2amigos/yii2-date-picker-widget.git",
+            "reference": "d09c2444e8c2329e38528bba77002dd65186c1ff"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/2amigos/yii2-date-picker-widget/zipball/d09c2444e8c2329e38528bba77002dd65186c1ff",
+            "reference": "d09c2444e8c2329e38528bba77002dd65186c1ff",
+            "shasum": ""
+        },
+        "require": {
+            "bower-asset/bootstrap-datepicker": "1.7.0",
+            "yiisoft/yii2": ">=2.0.9",
+            "yiisoft/yii2-bootstrap": "*"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.*"
+        },
+        "time": "2017-07-05T05:52:03+00:00",
+        "type": "yii2-extension",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            },
+            "asset-installer-paths": {
+                "bower-asset-library": "vendor/bower"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "dosamigos\\datepicker\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "2amigOS! Consulting Group",
+                "email": "hola@2amigos.us",
+                "homepage": "http://2amigos.us",
+                "role": "Developer"
+            }
+        ],
+        "description": "Bootstrap DatePicker widget for Yii2.",
+        "homepage": "http://yiiwheels.com/extension/bootstrap-datepicker",
+        "keywords": [
+            "2amigos",
+            "datepicker",
+            "extension",
+            "widget",
+            "yii",
+            "yii 2",
+            "yii2"
+        ]
+    },
+    {
         "name": "behat/gherkin",
         "version": "v4.5.1",
         "version_normalized": "4.5.1.0",
@@ -82,6 +145,30 @@
         "installation-source": "dist",
         "license": [
             "MIT"
+        ]
+    },
+    {
+        "name": "bower-asset/bootstrap-datepicker",
+        "version": "v1.7.0",
+        "version_normalized": "1.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/uxsolutions/bootstrap-datepicker.git",
+            "reference": "d364be5b066b38f3675a5a1dc174ce1ab1f3360e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/uxsolutions/bootstrap-datepicker/zipball/d364be5b066b38f3675a5a1dc174ce1ab1f3360e",
+            "reference": "d364be5b066b38f3675a5a1dc174ce1ab1f3360e",
+            "shasum": null
+        },
+        "require": {
+            "bower-asset/jquery": ">=1.7.1,<4.0.0"
+        },
+        "type": "bower-asset",
+        "installation-source": "dist",
+        "license": [
+            "Apache-2.0"
         ]
     },
     {
@@ -347,17 +434,17 @@
     },
     {
         "name": "codeception/phpunit-wrapper",
-        "version": "7.1.2",
-        "version_normalized": "7.1.2.0",
+        "version": "7.1.3",
+        "version_normalized": "7.1.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/Codeception/phpunit-wrapper.git",
-            "reference": "374dd623668a0028e29c95b362e20d03f8c4e65b"
+            "reference": "6a6244340e942a8d88cd9579d23c80b0ba10d46d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/Codeception/phpunit-wrapper/zipball/374dd623668a0028e29c95b362e20d03f8c4e65b",
-            "reference": "374dd623668a0028e29c95b362e20d03f8c4e65b",
+            "url": "https://api.github.com/repos/Codeception/phpunit-wrapper/zipball/6a6244340e942a8d88cd9579d23c80b0ba10d46d",
+            "reference": "6a6244340e942a8d88cd9579d23c80b0ba10d46d",
             "shasum": ""
         },
         "require": {
@@ -370,7 +457,7 @@
             "codeception/specify": "*",
             "vlucas/phpdotenv": "^2.4"
         },
-        "time": "2018-05-17T08:30:48+00:00",
+        "time": "2018-05-22T09:20:59+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -2239,8 +2326,8 @@
     },
     {
         "name": "symfony/browser-kit",
-        "version": "v4.0.9",
-        "version_normalized": "4.0.9.0",
+        "version": "v4.0.10",
+        "version_normalized": "4.0.10.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/browser-kit.git",
@@ -2298,17 +2385,17 @@
     },
     {
         "name": "symfony/console",
-        "version": "v4.0.9",
-        "version_normalized": "4.0.9.0",
+        "version": "v4.0.10",
+        "version_normalized": "4.0.10.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/console.git",
-            "reference": "3e820bc2c520a87ca209ad8fa961c97f42e0b4ae"
+            "reference": "058f120b8e06ebcd7b211de5ffae07b2db00fbdd"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/console/zipball/3e820bc2c520a87ca209ad8fa961c97f42e0b4ae",
-            "reference": "3e820bc2c520a87ca209ad8fa961c97f42e0b4ae",
+            "url": "https://api.github.com/repos/symfony/console/zipball/058f120b8e06ebcd7b211de5ffae07b2db00fbdd",
+            "reference": "058f120b8e06ebcd7b211de5ffae07b2db00fbdd",
             "shasum": ""
         },
         "require": {
@@ -2333,7 +2420,7 @@
             "symfony/lock": "",
             "symfony/process": ""
         },
-        "time": "2018-04-30T01:23:47+00:00",
+        "time": "2018-05-16T09:05:32+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2368,23 +2455,23 @@
     },
     {
         "name": "symfony/css-selector",
-        "version": "v4.0.9",
-        "version_normalized": "4.0.9.0",
+        "version": "v4.0.10",
+        "version_normalized": "4.0.10.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/css-selector.git",
-            "reference": "03f965583147957f1ecbad7ea1c9d6fd5e525ec2"
+            "reference": "0383a1a4eb1ffcac28719975d3e01bfa14be8ab3"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/css-selector/zipball/03f965583147957f1ecbad7ea1c9d6fd5e525ec2",
-            "reference": "03f965583147957f1ecbad7ea1c9d6fd5e525ec2",
+            "url": "https://api.github.com/repos/symfony/css-selector/zipball/0383a1a4eb1ffcac28719975d3e01bfa14be8ab3",
+            "reference": "0383a1a4eb1ffcac28719975d3e01bfa14be8ab3",
             "shasum": ""
         },
         "require": {
             "php": "^7.1.3"
         },
-        "time": "2018-03-19T22:35:49+00:00",
+        "time": "2018-05-11T15:58:37+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2423,21 +2510,22 @@
     },
     {
         "name": "symfony/dom-crawler",
-        "version": "v4.0.9",
-        "version_normalized": "4.0.9.0",
+        "version": "v4.0.10",
+        "version_normalized": "4.0.10.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/dom-crawler.git",
-            "reference": "d6c04c7532535b5e0b63db45b543cd60818e0fbc"
+            "reference": "cf13fe774cabf4d32e8e234ec6efe7821e8b6ec1"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/d6c04c7532535b5e0b63db45b543cd60818e0fbc",
-            "reference": "d6c04c7532535b5e0b63db45b543cd60818e0fbc",
+            "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/cf13fe774cabf4d32e8e234ec6efe7821e8b6ec1",
+            "reference": "cf13fe774cabf4d32e8e234ec6efe7821e8b6ec1",
             "shasum": ""
         },
         "require": {
             "php": "^7.1.3",
+            "symfony/polyfill-ctype": "~1.8",
             "symfony/polyfill-mbstring": "~1.0"
         },
         "require-dev": {
@@ -2446,7 +2534,7 @@
         "suggest": {
             "symfony/css-selector": ""
         },
-        "time": "2018-03-19T22:35:49+00:00",
+        "time": "2018-05-01T23:00:51+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2481,8 +2569,8 @@
     },
     {
         "name": "symfony/event-dispatcher",
-        "version": "v4.0.9",
-        "version_normalized": "4.0.9.0",
+        "version": "v4.0.10",
+        "version_normalized": "4.0.10.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/event-dispatcher.git",
@@ -2546,23 +2634,23 @@
     },
     {
         "name": "symfony/finder",
-        "version": "v4.0.9",
-        "version_normalized": "4.0.9.0",
+        "version": "v4.0.10",
+        "version_normalized": "4.0.10.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/finder.git",
-            "reference": "ca27c02b7a3fef4828c998c2ff9ba7aae1641c49"
+            "reference": "8c633f5a815903a1fe6e3fc135f207267a8a79af"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/finder/zipball/ca27c02b7a3fef4828c998c2ff9ba7aae1641c49",
-            "reference": "ca27c02b7a3fef4828c998c2ff9ba7aae1641c49",
+            "url": "https://api.github.com/repos/symfony/finder/zipball/8c633f5a815903a1fe6e3fc135f207267a8a79af",
+            "reference": "8c633f5a815903a1fe6e3fc135f207267a8a79af",
             "shasum": ""
         },
         "require": {
             "php": "^7.1.3"
         },
-        "time": "2018-04-04T05:10:37+00:00",
+        "time": "2018-05-16T09:05:32+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -2594,6 +2682,63 @@
         ],
         "description": "Symfony Finder Component",
         "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/polyfill-ctype",
+        "version": "v1.8.0",
+        "version_normalized": "1.8.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-ctype.git",
+            "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+            "reference": "7cc359f1b7b80fc25ed7796be7d96adc9b354bae",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "time": "2018-04-30T19:57:29+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Ctype\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            },
+            {
+                "name": "Gert de Pagter",
+                "email": "BackEndTea@gmail.com"
+            }
+        ],
+        "description": "Symfony polyfill for ctype functions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "ctype",
+            "polyfill",
+            "portable"
+        ]
     },
     {
         "name": "symfony/polyfill-mbstring",
@@ -2658,21 +2803,22 @@
     },
     {
         "name": "symfony/yaml",
-        "version": "v4.0.9",
-        "version_normalized": "4.0.9.0",
+        "version": "v4.0.10",
+        "version_normalized": "4.0.10.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/yaml.git",
-            "reference": "275ad099e4cbe612a2acbca14a16dd1c5311324d"
+            "reference": "048b1be5fb96e73ff1d065f5e7e23f84415ac907"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/yaml/zipball/275ad099e4cbe612a2acbca14a16dd1c5311324d",
-            "reference": "275ad099e4cbe612a2acbca14a16dd1c5311324d",
+            "url": "https://api.github.com/repos/symfony/yaml/zipball/048b1be5fb96e73ff1d065f5e7e23f84415ac907",
+            "reference": "048b1be5fb96e73ff1d065f5e7e23f84415ac907",
             "shasum": ""
         },
         "require": {
-            "php": "^7.1.3"
+            "php": "^7.1.3",
+            "symfony/polyfill-ctype": "~1.8"
         },
         "conflict": {
             "symfony/console": "<3.4"
@@ -2683,7 +2829,7 @@
         "suggest": {
             "symfony/console": "For validating YAML files using the lint command"
         },
-        "time": "2018-04-08T08:49:08+00:00",
+        "time": "2018-05-07T07:12:24+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
