@@ -4,9 +4,42 @@ namespace app\controllers;
 
 use yii;
 use app\models\License;
+use app\components\AccessRule;
 
 class LicenseController extends \yii\web\Controller
 {
+    public function behaviors()
+    {
+        return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'ruleConfig' => [
+                    'class' => AccessRule::className(),
+                ],
+                'only' => ['index','create','update','delete'],
+                'rules'=>[
+                    [
+                        'actions'=>['index','create','update'],
+                        'allow' => true,
+                        'roles' => ['@']
+                    ],
+                    [
+                        'actions' => ['index','delete'],
+                        'allow' => true,
+                        'roles' => [User::ROLE_ADMIN]
+                    ]
+                ],
+            ],
+            'verbs' => [
+                'class' => VerbFilter::className(),
+                'actions' => [
+                    'delete' => ['POST'],
+                ],
+            ],
+
+
+        ];
+    }
     public function actionCreate()
     {
         $model = new License();
